@@ -1,0 +1,507 @@
+﻿IDEntrada;NombreApellidoComprador;Edad;Direccion;CorreoElectronico;FechaCompra;FechaVencimiento;EmpleadoVenta;Juego;PrecioJuego;Supervisor;Localidad;DescuentoJuego
+1;Ana Gómez;28;Calle 123;ana@example.com;15/1/2023;15/2/2023;Lucas García;Tren Fantasma;150;Juan;Córdoba;10
+2;Luis Pérez;35;Avenida 456;luis@example.com;20/1/2023;20/2/2023;Martina Rodríguez;Autos Chocadores;250;María;Buenos Aires;5
+3;Marta Fernández;42;Plaza Principal;marta@example.com;5/2/2023;5/3/2023;Carlos Díaz;Montaña Rusa;350;Carlos;Mendoza;15
+4;Carlos Rodríguez;30;Calle 789;carlos@example.com;10/2/2023;10/3/2023;Laura Martínez;Tren Fantasma;150;Laura;Rosario;0
+5;Sofía López;38;Avenida 1011;sofia@example.com;1/3/2023;1/4/2023;Andrés Sánchez;Carrusel;450;Andrés;Santa Fe;12
+6;Javier Díaz;29;Calle 1213;javier@example.com;5/3/2023;5/4/2023;Ana Gómez;Autos Chocadores;250;Ana;Salta;8
+16;Martina Rodríguez;32;Avenida 789;martina@example.com;10/7/2023;10/8/2023;Carlos Rodríguez;Atracción Acuática;300;Javier;Córdoba;10
+17;Lucas García;27;Plaza Central;lucas@example.com;15/7/2023;15/8/2023;Luis Pérez;Campo de Golf;200;Sofía;Buenos Aires;5
+20;Carlos Díaz;29;Calle 789;carlos@example.com;10/8/2023;10/9/2023;Ana Gómez;Espejos Mágicos;350;Juan;Santa Fe;12
+21;Sofía González;33;Avenida 123;sofia@example.com;1/9/2023;1/10/2023;Laura Martínez;Atracción Acuática;300;Ana;Salta;8
+39;Andrés Sánchez;31;Avenida 123;andres@example.com;5/4/2024;5/5/2024;Sofía González;Campo de Golf;200;Javier;Córdoba;5
+47;Laura Martínez;29;Plaza Central;laura@example.com;15/7/2024;15/8/2024;Carlos Rodríguez;Campo de Golf;200;Lucas;Buenos Aires;5
+76;Andrea Ramírez;34;Calle 789;andrea@example.com;10/7/2025;10/8/2025;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+77;Leonardo Silva;27;Avenida 123;leonardo@example.com;15/7/2025;15/8/2025;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+78;Mariana Torres;31;Plaza Principal;mariana@example.com;1/8/2025;1/9/2025;Sofía González;Laberinto;400;Ana;La Plata;15
+79;Matías López;29;Calle 789;matias@example.com;5/8/2025;5/9/2025;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+80;Valentina Gómez;30;Avenida 789;valentina@example.com;10/8/2025;10/9/2025;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+81;Nicolás Torres;28;Plaza Central;nicolas@example.com;1/9/2025;1/10/2025;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+82;Daniela Rodríguez;32;Calle 456;daniela@example.com;5/9/2025;5/10/2025;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+83;Santiago Pérez;29;Avenida 789;santiago@example.com;10/9/2025;10/10/2025;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+84;Abril Martínez;27;Avenida 789;abril@example.com;1/10/2025;1/11/2025;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+85;Agustín Díaz;33;Calle 789;agustin@example.com;5/10/2025;5/11/2025;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+86;Melina Torres;28;Plaza Principal;melina@example.com;10/10/2025;10/11/2025;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+87;Esteban Silva;30;Calle 789;esteban@example.com;1/11/2025;1/12/2025;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+89;Lucas Pérez;35;Avenida 789;lucas@example.com;10/11/2025;10/12/2025;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+90;Mariana Silva;29;Calle 789;mariana@example.com;1/12/2025;1/1/2026;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+91;Fernando Gómez;33;Calle 789;fernando@example.com;15/1/2026;15/2/2026;Marta Fernández;Atracción Acuática;300;Sofía;Mendoza;10
+92;Valeria Martínez;28;Avenida 123;valeria@example.com;20/1/2026;20/2/2026;Carlos Rodríguez;Campo de Golf;200;Lucas;Buenos Aires;5
+93;Marcos Torres;31;Plaza Principal;marcos@example.com;5/2/2026;5/3/2026;Sofía González;Laberinto;400;Ana;La Plata;15
+94;Lucía Díaz;29;Calle 789;lucia@example.com;10/2/2026;10/3/2026;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+95;Mateo López;30;Avenida 789;mateo@example.com;15/2/2026;15/3/2026;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+96;Camila Silva;28;Plaza Central;camila@example.com;1/3/2026;1/4/2026;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+97;Emilio Pérez;32;Calle 456;emilio@example.com;5/3/2026;5/4/2026;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+98;Luna Díaz;29;Avenida 789;luna@example.com;10/3/2026;10/4/2026;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+99;Martin Silva;27;Avenida 789;martin@example.com;1/4/2026;1/5/2026;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+100;Antonia Torres;33;Calle 789;antonia@example.com;5/4/2026;5/5/2026;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+101;Agustin Torres;28;Plaza Principal;agustin@example.com;10/4/2026;10/5/2026;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+102;Delfina Díaz;30;Calle 789;delfina@example.com;1/5/2026;1/6/2026;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+103;Ignacio López;38;Avenida 1011;ignacio@example.com;5/5/2026;5/6/2026;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+104;Catalina Silva;35;Avenida 789;catalina@example.com;10/5/2026;10/6/2026;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+105;Santiago Torres;29;Calle 789;santiago@example.com;1/6/2026;1/7/2026;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+106;Mariano Gómez;33;Calle 789;mariano@example.com;10/7/2026;10/8/2026;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+107;Isabella Martínez;28;Avenida 123;isabella@example.com;15/7/2026;15/8/2026;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+109;Valentina Díaz;29;Calle 789;valentina@example.com;5/8/2026;5/9/2026;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+110;Joaquín López;30;Avenida 789;joaquin@example.com;10/8/2026;10/9/2026;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+111;Victoria Silva;28;Plaza Central;victoria@example.com;1/9/2026;1/10/2026;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+112;Sebastián Pérez;32;Calle 456;sebastian@example.com;5/9/2026;5/10/2026;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+113;Maite Díaz;29;Avenida 789;maite@example.com;10/9/2026;10/10/2026;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+114;Alejandro Silva;27;Avenida 789;alejandro@example.com;1/10/2026;1/11/2026;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+115;Luciana Torres;33;Calle 789;luciana@example.com;5/10/2026;5/11/2026;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+116;Martín Torres;28;Plaza Principal;martin@example.com;10/10/2026;10/11/2026;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+117;Lourdes Díaz;30;Calle 789;lourdes@example.com;1/11/2026;1/12/2026;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+118;Emilio López;38;Avenida 1011;emilio@example.com;5/11/2026;5/12/2026;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+119;Abril Silva;35;Avenida 789;abril@example.com;10/11/2026;10/12/2026;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+120;Mauro Torres;29;Calle 789;mauro@example.com;1/12/2026;1/1/2027;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+122;Maximiliano Díaz;30;Calle 789;maximiliano@example.com;10/1/2027;10/2/2027;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+123;Florencia Silva;28;Avenida 789;florencia@example.com;1/2/2027;1/3/2027;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+124;Julián Torres;35;Avenida 123;julian@example.com;5/2/2027;5/3/2027;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+125;Mía Díaz;29;Calle 789;mia@example.com;10/2/2027;10/3/2027;Javier Díaz;Espejos Mágicos;350;Javier;Santa Fe;8
+126;Santiago Silva;31;Calle 789;santiago@example.com;15/3/2027;15/4/2027;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+127;Martina Gómez;29;Avenida 123;martina@example.com;1/4/2027;1/5/2027;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+128;Iván Torres;33;Plaza Principal;ivan@example.com;5/4/2027;5/5/2027;Sofía González;Laberinto;400;Ana;La Plata;15
+130;Felipe López;30;Avenida 789;felipe@example.com;1/5/2027;1/6/2027;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+146;Diego Pérez;32;Calle 789;diego@example.com;15/1/2028;15/2/2028;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+147;Carolina Torres;28;Avenida 123;carolina@example.com;20/1/2028;20/2/2028;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+148;Iván Gómez;33;Plaza Principal;ivan@example.com;5/2/2028;5/3/2028;Sofía González;Laberinto;400;Ana;La Plata;15
+149;Lara Díaz;29;Calle 789;lara@example.com;10/2/2028;10/3/2028;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+150;Nicolás López;30;Avenida 789;nicolas@example.com;15/2/2028;15/3/2028;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+151;Valeria Silva;28;Plaza Central;valeria@example.com;1/3/2028;1/4/2028;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+152;Federico Pérez;32;Calle 456;federico@example.com;5/3/2028;5/4/2028;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+153;Sofía Díaz;29;Avenida 789;sofia@example.com;10/3/2028;10/4/2028;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+154;Andrea Silva;27;Avenida 789;andrea@example.com;1/4/2028;1/5/2028;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+156;Lourdes Pérez;28;Plaza Principal;lourdes@example.com;10/4/2028;10/5/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+157;Eduardo Díaz;30;Calle 789;eduardo@example.com;1/5/2028;1/6/2028;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+158;Luciana Silva;38;Avenida 1011;luciana@example.com;5/5/2028;5/6/2028;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+159;Facundo Pérez;35;Avenida 789;facundo@example.com;10/5/2028;10/6/2028;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+161;Santiago López;33;Plaza Principal;santiago@example.com;5/6/2028;5/7/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+166;Valentina Pérez;32;Calle 789;valentina@example.com;15/1/2029;15/2/2029;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+167;Mateo Torres;28;Avenida 123;mateo@example.com;20/1/2029;20/2/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+168;Isabella Díaz;33;Plaza Principal;isabella@example.com;5/2/2029;5/3/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+169;Lara López;29;Calle 789;lara@example.com;10/2/2029;10/3/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+171;Valeria Pérez;28;Plaza Central;valeria@example.com;1/3/2029;1/4/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+172;Federico Torres;32;Calle 456;federico@example.com;5/3/2029;5/4/2029;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+187;Abril Torres;28;Avenida 123;abril@example.com;20/8/2029;20/9/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+188;Diego Gómez;33;Plaza Principal;diego@example.com;5/9/2029;5/10/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+189;Lara Pérez;29;Calle 789;lara@example.com;10/9/2029;10/10/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+191;Valentina Silva;28;Plaza Central;valentina@example.com;1/10/2029;1/11/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+216;Mariana Gutiérrez;31;Calle 789;mariana@example.com;15/8/2030;15/9/2030;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+217;Lorenzo Rodríguez;29;Avenida 123;lorenzo@example.com;20/8/2030;20/9/2030;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+218;Isabella Sánchez;33;Plaza Principal;isabella@example.com;5/9/2030;5/10/2030;Sofía González;Laberinto;400;Ana;La Plata;15
+219;Lucas Hernández;28;Calle 789;lucas@example.com;10/9/2030;10/10/2030;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+221;Santino López;28;Plaza Central;santino@example.com;1/10/2030;1/11/2030;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+222;Ana María Torres;32;Calle 456;ana@example.com;5/10/2030;5/11/2030;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+223;Martina González;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+224;Benjamín Silva;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+226;Lautaro Pérez;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+227;Sabrina Díaz;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+228;Guadalupe Silva;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+229;Ezequiel Pérez;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+241;Miriam Alvarado;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+242;Lionel Miranda;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+243;Gabriela Soto;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+244;Marcos Ramírez;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+246;Milena Gómez;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+247;Miguel Torres;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+249;Eduardo González;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+250;Isabella Torres;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+253;José Silva;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+257;Mateo Díaz;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+261;Marcelo Sánchez;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+262;Valentina Ramírez;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+263;Andrés Díaz;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+264;Lucía Torres;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+265;Valentín Pérez;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+266;Isabella Soto;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+267;Lionel Torres;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+268;Camila Díaz;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+270;María Torres;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+272;Abril López;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+273;Eduardo Ramírez;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+274;Martina Torres;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+278;Julián Silva;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+279;Milena Torres;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+301;Leonardo Serrano;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+302;Valentina Morales;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+351;Lucas Miranda;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+352;Valeria Torres;28;Avenida 123;valeria@example.com;20/1/2034;20/2/2034;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+353;Andrés Soto;33;Plaza Principal;andres@example.com;5/2/2034;5/3/2034;Sofía González;Laberinto;400;Ana;La Plata;15
+354;Lucía Rodríguez;29;Calle 789;lucia@example.com;10/2/2034;10/3/2034;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+401;Leandro Martínez;31;Calle 789;leandro@example.com;15/1/2035;15/2/2035;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+402;Vanesa Torres;28;Avenida 123;vanesa@example.com;20/1/2035;20/2/2035;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+403;Gonzalo Díaz;33;Plaza Principal;gonzalo@example.com;5/2/2035;5/3/2035;Sofía González;Laberinto;400;Ana;La Plata;15
+404;Carolina Silva;29;Calle 789;carolina@example.com;10/2/2035;10/3/2035;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+405;Felipe Pérez;30;Avenida 789;felipe@example.com;15/2/2035;15/3/2035;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+407;Emilio Soto;32;Calle 456;emilio@example.com;5/3/2035;5/4/2035;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+408;Daniela Díaz;29;Avenida 789;daniela@example.com;10/3/2035;10/4/2035;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+409;Matías Silva;27;Avenida 789;matias@example.com;1/4/2035;1/5/2035;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+410;Alejandra Torres;33;Calle 789;alejandra@example.com;5/4/2035;5/5/2035;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+412;Liliana López;30;Calle 789;liliana@example.com;1/5/2035;1/6/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+413;Alejandro Ramírez;38;Avenida 1011;alejandro@example.com;5/5/2035;5/6/2035;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+414;Natalia Torres;35;Avenida 789;natalia@example.com;10/5/2035;10/6/2035;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+415;Agustina Silva;29;Calle 789;agustina@example.com;1/6/2035;1/7/2035;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+416;Iván Pérez;33;Plaza Principal;ivan@example.com;5/6/2035;5/7/2035;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+417;Cecilia Díaz;30;Calle 789;cecilia@example.com;10/6/2035;10/7/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+419;Milagros Torres;35;Avenida 123;milagros@example.com;5/7/2035;5/8/2035;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+451;Lionel Martínez;31;Calle 789;lionel@example.com;15/1/2036;15/2/2036;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+452;Valentina Rodríguez;28;Avenida 123;valentina@example.com;20/1/2036;20/2/2036;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+501;Leila Gómez;31;Calle 789;leila@example.com;15/1/2037;15/2/2037;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+502;Rodrigo Torres;28;Avenida 123;rodrigo@example.com;20/1/2037;20/2/2037;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+503;Carla Díaz;33;Plaza Principal;carla@example.com;5/2/2037;5/3/2037;Sofía González;Laberinto;400;Ana;La Plata;15
+504;Gabriel Torres;29;Calle 789;gabriel@example.com;10/2/2037;10/3/2037;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+551;Marcos Herrera;31;Calle 789;marcos@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+552;Valeria Rodríguez;28;Avenida 123;valeria@example.com;20/1/2038;20/2/2038;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+551;Lucas Mendoza;31;Calle 789;lucas@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+553;Andrés Gómez;33;Plaza Principal;andres@example.com;5/2/2038;5/3/2038;Sofía González;Laberinto;400;Ana;La Plata;15
+;Agustina Martínez;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Sebastián Gómez;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Camila López;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Sofía García;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Luciana Soto;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Nicolás Fernández;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Martina Silva;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Emiliano Ramírez;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Renata González;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;Tomás Rodríguez;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Juana Pérez;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Ignacio Martínez;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Valeria López;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Marcos Soto;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Carla Torres;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Federico Gómez;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Franco Herrera;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Emilio Ramírez;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Antonella Rodríguez;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Juan Martínez;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Celeste Gutiérrez;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Facundo Silva;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Julieta Pérez;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Marcos López;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Valeria Fernández;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Facundo Soto;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Melina González;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Thiago García;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Martina Díaz;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Franco Rodríguez;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Renata Soto;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Juan Pablo López;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Micaela Torres;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Gonzalo Martínez;33;Plaza Principal;ivan@example.com;5/2/2028;5/3/2028;Sofía González;Laberinto;400;Ana;La Plata;15
+;Ignacio Silva;29;Calle 789;lara@example.com;10/2/2028;10/3/2028;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Emiliano López;30;Avenida 789;nicolas@example.com;15/2/2028;15/3/2028;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Antonella Ramírez;28;Plaza Central;valeria@example.com;1/3/2028;1/4/2028;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Luciana Pérez;32;Calle 456;federico@example.com;5/3/2028;5/4/2028;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Facundo Rodríguez;29;Avenida 789;sofia@example.com;10/3/2028;10/4/2028;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Renata Fernández;27;Avenida 789;andrea@example.com;1/4/2028;1/5/2028;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Mateo Soto;28;Plaza Principal;lourdes@example.com;10/4/2028;10/5/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Sofía Ramírez;30;Calle 789;eduardo@example.com;1/5/2028;1/6/2028;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Valeria González;38;Avenida 1011;luciana@example.com;5/5/2028;5/6/2028;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Tomás Pérez;35;Avenida 789;facundo@example.com;10/5/2028;10/6/2028;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Martina Martínez;33;Plaza Principal;santiago@example.com;5/6/2028;5/7/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Franco Gómez;32;Calle 789;valentina@example.com;15/1/2029;15/2/2029;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Celeste Ramírez;28;Avenida 123;mateo@example.com;20/1/2029;20/2/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Franco Torres;33;Plaza Principal;isabella@example.com;5/2/2029;5/3/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+;Micaela López;29;Calle 789;lara@example.com;10/2/2029;10/3/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Santiago Herrera;28;Plaza Central;valeria@example.com;1/3/2029;1/4/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Juana Silva;32;Calle 456;federico@example.com;5/3/2029;5/4/2029;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Facundo Gutiérrez;28;Avenida 123;abril@example.com;20/8/2029;20/9/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Renata Torres;33;Plaza Principal;diego@example.com;5/9/2029;5/10/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+;Lucas Rodríguez;29;Calle 789;lara@example.com;10/9/2029;10/10/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Antonella Pérez;28;Plaza Central;valentina@example.com;1/10/2029;1/11/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Juan Pablo Soto;31;Calle 789;mariana@example.com;15/8/2030;15/9/2030;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Lucía Martínez;29;Avenida 123;lorenzo@example.com;20/8/2030;20/9/2030;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Valentina Soto;33;Plaza Principal;isabella@example.com;5/9/2030;5/10/2030;Sofía González;Laberinto;400;Ana;La Plata;15
+;Sebastián Rodríguez;28;Calle 789;lucas@example.com;10/9/2030;10/10/2030;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Facundo Martínez;28;Plaza Central;santino@example.com;1/10/2030;1/11/2030;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Camila Fernández;32;Calle 456;ana@example.com;5/10/2030;5/11/2030;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Sofía Gutiérrez;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Renata Díaz;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Lucas Ramírez;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Antonella Silva;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martín González;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Luciana Martínez;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Juan Pablo Díaz;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Celeste Torres;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Julieta Silva;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;Santiago Gómez;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Renzo Rodríguez;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Melina López;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Tomás Fernández;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Micaela Rodríguez;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Facundo Díaz;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Lucía Pérez;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martín Pérez;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Valentina González;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Juan Torres;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Renata López;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Emiliano Gómez;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Camila Ramírez;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Lucas Silva;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Celeste Martínez;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Franco Fernández;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Facundo López;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Julieta Gutiérrez;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Tomás Martínez;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Antonella Soto;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Mateo Rodríguez;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Micaela Pérez;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Juan Pablo Ramírez;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Valentina López;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Facundo González;28;Avenida 123;valeria@example.com;20/1/2034;20/2/2034;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Renata Silva;33;Plaza Principal;andres@example.com;5/2/2034;5/3/2034;Sofía González;Laberinto;400;Ana;La Plata;15
+;Emilio Torres;29;Calle 789;lucia@example.com;10/2/2034;10/3/2034;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Melina Fernández;31;Calle 789;leandro@example.com;15/1/2035;15/2/2035;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Franco López;28;Avenida 123;vanesa@example.com;20/1/2035;20/2/2035;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Celeste Gómez;33;Plaza Principal;gonzalo@example.com;5/2/2035;5/3/2035;Sofía González;Laberinto;400;Ana;La Plata;15
+;Juan Díaz;29;Calle 789;carolina@example.com;10/2/2035;10/3/2035;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Nicolás Ramírez;30;Avenida 789;felipe@example.com;15/2/2035;15/3/2035;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Sofía Silva;32;Calle 456;emilio@example.com;5/3/2035;5/4/2035;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Tomás Gómez;29;Avenida 789;daniela@example.com;10/3/2035;10/4/2035;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Santiago Rodríguez;27;Avenida 789;matias@example.com;1/4/2035;1/5/2035;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Camila Pérez;33;Calle 789;alejandra@example.com;5/4/2035;5/5/2035;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Renata Martínez;30;Calle 789;liliana@example.com;1/5/2035;1/6/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Emiliano Fernández;38;Avenida 1011;alejandro@example.com;5/5/2035;5/6/2035;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Antonella Díaz;35;Avenida 789;natalia@example.com;10/5/2035;10/6/2035;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Micaela González;29;Calle 789;agustina@example.com;1/6/2035;1/7/2035;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+;Valeria Díaz;33;Plaza Principal;ivan@example.com;5/6/2035;5/7/2035;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Martín Ramírez;30;Calle 789;cecilia@example.com;10/6/2035;10/7/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Celeste Pérez;35;Avenida 123;milagros@example.com;5/7/2035;5/8/2035;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Renata Rodríguez;31;Calle 789;lionel@example.com;15/1/2036;15/2/2036;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Nicolás Martínez;28;Avenida 123;valentina@example.com;20/1/2036;20/2/2036;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Lucas Fernández;31;Calle 789;leila@example.com;15/1/2037;15/2/2037;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Camila Torres;28;Avenida 123;rodrigo@example.com;20/1/2037;20/2/2037;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Ignacio Pérez;33;Plaza Principal;carla@example.com;5/2/2037;5/3/2037;Sofía González;Laberinto;400;Ana;La Plata;15
+;Martina López;29;Calle 789;gabriel@example.com;10/2/2037;10/3/2037;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Facundo Torres;31;Calle 789;marcos@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Renata Gómez;28;Avenida 123;valeria@example.com;20/1/2038;20/2/2038;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Emiliano Torres;31;Calle 789;lucas@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Juan Pablo Silva;33;Plaza Principal;andres@example.com;5/2/2038;5/3/2038;Sofía González;Laberinto;400;Ana;La Plata;15
+;Lucía Gutiérrez;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Sofía Martínez;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Martín Gómez;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Santiago Gutiérrez;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Facundo Gómez;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Santiago Ramírez;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Martín Gutiérrez;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Tomás Silva;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Franco Pérez;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;Camila Gómez;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Juan Pablo Fernández;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Sofía Torres;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Micaela Ramírez;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Lucas Martínez;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Antonella Gutiérrez;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Santiago Díaz;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Valeria Gómez;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Franco Gutiérrez;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Celeste Rodríguez;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Nicolás Silva;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Renata Pérez;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Luciana Gutiérrez;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Lucas Torres;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Gómez, Santiago;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Torres, Valentina;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Martínez, Facundo;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Fernández, Camila;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Silva, Lucas;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;López, Renata;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Fernández, Emiliano;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Díaz, Antonella;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Pérez, Tomás;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Silva, Luciana;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Juan;29;Avenida 789;daniela@example.com;10/3/2035;10/4/2035;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;González, Micaela;27;Avenida 789;matias@example.com;1/4/2035;1/5/2035;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Silva, Facundo;33;Calle 789;alejandra@example.com;5/4/2035;5/5/2035;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Díaz, Valeria;30;Calle 789;liliana@example.com;1/5/2035;1/6/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Rodríguez, Franco;38;Avenida 1011;alejandro@example.com;5/5/2035;5/6/2035;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;López, Sofía;35;Avenida 789;natalia@example.com;10/5/2035;10/6/2035;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Ramírez, Martín;29;Calle 789;agustina@example.com;1/6/2035;1/7/2035;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+;Pérez, Celeste;33;Plaza Principal;ivan@example.com;5/6/2035;5/7/2035;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Martínez, Ignacio;30;Calle 789;cecilia@example.com;10/6/2035;10/7/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Silva, Antonella;35;Avenida 123;milagros@example.com;5/7/2035;5/8/2035;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Facundo;31;Calle 789;lionel@example.com;15/1/2036;15/2/2036;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Torres, Luciana;28;Avenida 123;valentina@example.com;20/1/2036;20/2/2036;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Ramírez, Santiago;31;Calle 789;leila@example.com;15/1/2037;15/2/2037;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Díaz, Valentina;28;Avenida 123;rodrigo@example.com;20/1/2037;20/2/2037;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Torres, Martín;33;Plaza Principal;carla@example.com;5/2/2037;5/3/2037;Sofía González;Laberinto;400;Ana;La Plata;15
+;Fernández, Renata;29;Calle 789;gabriel@example.com;10/2/2037;10/3/2037;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Silva, Tomás;31;Calle 789;marcos@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Celeste;28;Avenida 123;valeria@example.com;20/1/2038;20/2/2038;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Pérez, Franco;31;Calle 789;lucas@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Rodríguez, Emiliano;33;Plaza Principal;andres@example.com;5/2/2038;5/3/2038;Sofía González;Laberinto;400;Ana;La Plata;15
+;López, Camila;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Fernández, Juan Pablo;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Díaz, Mateo;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Ramírez, Micaela;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martínez, Lucas;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Silva, Renata;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Valeria;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Rodríguez, Santiago;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Pérez, Valentina;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;Torres, Lucas;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gutiérrez, Luciana;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Gutiérrez, Martín;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Torres, Tomás;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Torres, Emiliano;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Gómez, Camila;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Pérez, Juan Pablo;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Torres, Sofía;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Torres, Renata;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;López, Valeria;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;González, Valentín;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Torres, Facundo;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Pérez, Camila;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Martínez, Luciano;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Silva, Sofía;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Ramírez, Renata;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;López, Facundo;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Fernández, Antonella;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Gómez, Martín;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Rodríguez, Micaela;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Martínez, Lucía;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gutiérrez, Renzo;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Silva, Camila;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Ramírez, Tomás;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Gómez, Celeste;33;Plaza Principal;ivan@example.com;5/2/2028;5/3/2028;Sofía González;Laberinto;400;Ana;La Plata;15
+;Torres, Santiago;29;Calle 789;lara@example.com;10/2/2028;10/3/2028;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Díaz, Emilia;30;Avenida 789;nicolas@example.com;15/2/2028;15/3/2028;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Rodríguez, Juan Pablo;28;Plaza Central;valeria@example.com;1/3/2028;1/4/2028;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Torres, Ignacio;32;Calle 456;federico@example.com;5/3/2028;5/4/2028;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Martínez, Valentina;29;Avenida 789;sofia@example.com;10/3/2028;10/4/2028;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Pérez, Julieta;27;Avenida 789;andrea@example.com;1/4/2028;1/5/2028;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Silva, Juan;28;Plaza Principal;lourdes@example.com;10/4/2028;10/5/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Díaz, Nicolás;30;Calle 789;eduardo@example.com;1/5/2028;1/6/2028;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martínez, Martina;38;Avenida 1011;luciana@example.com;5/5/2028;5/6/2028;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Gómez, Renata;35;Avenida 789;facundo@example.com;10/5/2028;10/6/2028;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;López, Franco;33;Plaza Principal;santiago@example.com;5/6/2028;5/7/2028;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Rodríguez, Valentina;32;Calle 789;valentina@example.com;15/1/2029;15/2/2029;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Ramírez, Franco;28;Avenida 123;mateo@example.com;20/1/2029;20/2/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Silva, Martín;33;Plaza Principal;isabella@example.com;5/2/2029;5/3/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+;Gómez, Sofía;29;Calle 789;lara@example.com;10/2/2029;10/3/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Díaz, Facundo;28;Plaza Central;valeria@example.com;1/3/2029;1/4/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;López, Luciana;32;Calle 456;federico@example.com;5/3/2029;5/4/2029;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Pérez, Santiago;28;Avenida 123;abril@example.com;20/8/2029;20/9/2029;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;López, Juan Pablo;33;Plaza Principal;diego@example.com;5/9/2029;5/10/2029;Sofía González;Laberinto;400;Ana;La Plata;15
+;Pérez, Mateo;29;Calle 789;lara@example.com;10/9/2029;10/10/2029;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Valentina;28;Plaza Central;valentina@example.com;1/10/2029;1/11/2029;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Martínez, Camilo;31;Calle 789;mariana@example.com;15/8/2030;15/9/2030;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Ramírez, Lucas;29;Avenida 123;lorenzo@example.com;20/8/2030;20/9/2030;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Fernández, Facundo;33;Plaza Principal;isabella@example.com;5/9/2030;5/10/2030;Sofía González;Laberinto;400;Ana;La Plata;15
+;López, Tomás;28;Calle 789;lucas@example.com;10/9/2030;10/10/2030;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Rodríguez, Juan;28;Plaza Central;santino@example.com;1/10/2030;1/11/2030;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Silva, Martina;32;Calle 456;ana@example.com;5/10/2030;5/11/2030;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;González, Franco;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Díaz, Celeste;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Martínez, Emiliano;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Torres, Valeria;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Gómez, Luciana;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Díaz, Ignacio;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Pérez, Micaela;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Silva, Franco;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Rodríguez, Juana;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;López, Santiago;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Ramírez, Valeria;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Pérez, Martín;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Rodríguez, Nicolás;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Díaz, Renata;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Gómez, Juan Pablo;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Torres, Renzo;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Fernández, Valentina;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Silva, Julián;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Ramírez, Emilia;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Pérez, Renata;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Pérez, Facundo;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Díaz, Santiago;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Martínez, Luciana;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Fernández, Tomás;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Rodríguez, Lucas;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Gutiérrez, Micaela;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Pérez, Nicolás;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Martínez, Renata;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Torres, Juan Pablo;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Ramírez, Antonella;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;López, Mateo;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Silva, Emiliano;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Díaz, Martina;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Julieta;28;Avenida 123;valeria@example.com;20/1/2034;20/2/2034;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Ramírez, Facundo;33;Plaza Principal;andres@example.com;5/2/2034;5/3/2034;Sofía González;Laberinto;400;Ana;La Plata;15
+;Silva, Renzo;29;Calle 789;lucia@example.com;10/2/2034;10/3/2034;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Pérez, Martina;31;Calle 789;leandro@example.com;15/1/2035;15/2/2035;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Díaz, Luciana;28;Avenida 123;vanesa@example.com;20/1/2035;20/2/2035;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;López, Renzo;33;Plaza Principal;gonzalo@example.com;5/2/2035;5/3/2035;Sofía González;Laberinto;400;Ana;La Plata;15
+;Rodríguez, Renata;29;Calle 789;carolina@example.com;10/2/2035;10/3/2035;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Franco;30;Avenida 789;felipe@example.com;15/2/2035;15/3/2035;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Torres, Emilia;32;Calle 456;emilio@example.com;5/3/2035;5/4/2035;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Ramírez, Juan Pablo;29;Avenida 789;daniela@example.com;10/3/2035;10/4/2035;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Silva, Lucía;27;Avenida 789;matias@example.com;1/4/2035;1/5/2035;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Fernández, Ignacio;33;Calle 789;alejandra@example.com;5/4/2035;5/5/2035;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Pérez, Valeria;30;Calle 789;liliana@example.com;1/5/2035;1/6/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martínez, Franco;38;Avenida 1011;alejandro@example.com;5/5/2035;5/6/2035;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Díaz, Julieta;35;Avenida 789;natalia@example.com;10/5/2035;10/6/2035;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gutiérrez, Santiago;29;Calle 789;agustina@example.com;1/6/2035;1/7/2035;Sofía González;Espejos Mágicos;350;Javier;Santa Fe;8
+;Silva, Celeste;33;Plaza Principal;ivan@example.com;5/6/2035;5/7/2035;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;López, Martín;30;Calle 789;cecilia@example.com;10/6/2035;10/7/2035;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Torres, Camilo;35;Avenida 123;milagros@example.com;5/7/2035;5/8/2035;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Ramírez, Valentina;31;Calle 789;lionel@example.com;15/1/2036;15/2/2036;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Pérez, Renzo;28;Avenida 123;valentina@example.com;20/1/2036;20/2/2036;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Díaz, Renato;31;Calle 789;leila@example.com;15/1/2037;15/2/2037;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Gómez, Luciano;28;Avenida 123;rodrigo@example.com;20/1/2037;20/2/2037;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Rodríguez, Sofía;33;Plaza Principal;carla@example.com;5/2/2037;5/3/2037;Sofía González;Laberinto;400;Ana;La Plata;15
+;Gómez, Emiliano;29;Calle 789;gabriel@example.com;10/2/2037;10/3/2037;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Ramírez, Celeste;31;Calle 789;marcos@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Juan Pablo;28;Avenida 123;valeria@example.com;20/1/2038;20/2/2038;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Gutiérrez, Sofía;31;Calle 789;lucas@example.com;15/1/2038;15/2/2038;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Torres, Franco;33;Plaza Principal;andres@example.com;5/2/2038;5/3/2038;Sofía González;Laberinto;400;Ana;La Plata;15
+;Pérez, Ignacio;29;Avenida 789;martina@example.com;10/10/2030;10/11/2030;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Gómez, Antonella;27;Avenida 789;benjamin@example.com;1/11/2030;1/12/2030;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Ramírez, Juan;28;Plaza Principal;lautaro@example.com;10/11/2030;10/12/2030;Marta Fernández;Atracción Acuática;300;Laura;Mendoza;10
+;Fernández, Valeria;30;Calle 789;sabrina@example.com;1/1/2031;1/2/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Silva, Micaela;38;Avenida 1011;guadalupe@example.com;5/1/2031;5/2/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Díaz, Franco;35;Avenida 789;ezequiel@example.com;10/1/2031;10/2/2031;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Lucía;32;Calle 789;miriam@example.com;15/6/2031;15/7/2031;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Silva, Juan Pablo;29;Avenida 123;lionel@example.com;20/6/2031;20/7/2031;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Fernández, Julieta;33;Plaza Principal;gabriela@example.com;5/7/2031;5/8/2031;Sofía González;Laberinto;400;Ana;La Plata;15
+;López, Martina;28;Calle 789;marcos@example.com;10/7/2031;10/8/2031;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gutiérrez, Renata;28;Plaza Central;milena@example.com;1/8/2031;1/9/2031;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Díaz, Renzo;32;Calle 456;miguel@example.com;5/8/2031;5/9/2031;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;López, Valentina;27;Avenida 789;eduardo@example.com;1/9/2031;1/10/2031;Lucas García;Tiro al Blanco;250;Andrés;La Plata;0
+;Torres, Juan;33;Calle 789;isabella@example.com;5/9/2031;5/10/2031;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Ramírez, Martina;38;Avenida 1011;jose@example.com;5/10/2031;5/11/2031;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Pérez, Luciano;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Fernández, Renzo;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Julián;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;López, Julieta;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Fernández, Mateo;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Pérez, Sofía;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Martínez, Renzo;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Silva, Valentina;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Torres, Celeste;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Ramírez, Emiliano;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Díaz, Micaela;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Silva, Ignacio;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Fernández, Celeste;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Pérez, Juan;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Martínez, Valeria;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gutiérrez, Luciano;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;López, Lucas;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Gómez, Renzo;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Martínez, Sofía;30;Calle 789;mateo@example.com;10/11/2031;10/12/2031;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;González, Renata;31;Calle 789;marcelo@example.com;15/1/2032;15/2/2032;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;Ramírez, Luciana;28;Avenida 123;valentina@example.com;20/1/2032;20/2/2032;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;López, Juan;33;Plaza Principal;andres@example.com;5/2/2032;5/3/2032;Sofía González;Laberinto;400;Ana;La Plata;15
+;Rodríguez, Celeste;29;Calle 789;lucia@example.com;10/2/2032;10/3/2032;Javier Díaz;Tiro al Blanco;250;Carlos;Córdoba;0
+;Silva, Julieta;30;Avenida 789;valentin@example.com;15/2/2032;15/3/2032;Marta Fernández;Espejos Mágicos;350;Javier;Santa Fe;8
+;Díaz, Tomás;28;Plaza Central;isabella@example.com;1/3/2032;1/4/2032;Laura Martínez;Atracción Acuática;300;Marta;Rosario;10
+;Díaz, Sofía;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
+;Fernández, Martina;29;Avenida 789;camila@example.com;10/3/2032;10/4/2032;Sofía González;Laberinto;400;Sofía;Buenos Aires;15
+;Gutiérrez, Tomás;33;Calle 789;maria@example.com;5/4/2032;5/5/2032;Ana Gómez;Espejos Mágicos;350;Javier;Santa Fe;8
+;Rodríguez, Renzo;30;Calle 789;abril@example.com;1/5/2032;1/6/2032;Carlos Díaz;Campo de Golf;200;Sofía;Rosario;5
+;Martínez, Antonella;38;Avenida 1011;eduardo@example.com;5/5/2032;5/6/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Díaz, Martín;35;Avenida 789;martina@example.com;10/5/2032;10/6/2032;Carlos Rodríguez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Gómez, Micaela;28;Avenida 789;julian@example.com;1/7/2032;1/8/2032;Lucas García;Laberinto;400;Luis;Buenos Aires;15
+;Rodríguez, Facundo;35;Avenida 123;milena@example.com;5/7/2032;5/8/2032;Ana Gómez;Tiro al Blanco;250;Carlos;Córdoba;0
+;Torres, Lucía;31;Calle 789;leonardo@example.com;15/1/2033;15/2/2033;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;López, Ignacio;28;Avenida 123;valentina@example.com;20/1/2033;20/2/2033;Lucas García;Campo de Golf;200;Luis;Buenos Aires;5
+;Gutiérrez, Valentina;31;Calle 789;lucas@example.com;15/1/2034;15/2/2034;Carlos Díaz;Atracción Acuática;300;Sofía;Mendoza;10
+;López, Celeste;32;Calle 456;lionel@example.com;5/3/2032;5/4/2032;Carlos Rodríguez;Campo de Golf;200;Luis;Mendoza;5
